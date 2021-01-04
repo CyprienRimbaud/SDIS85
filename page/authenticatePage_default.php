@@ -7,7 +7,7 @@
                 <input type="email" name="mail" placeholder="Saisissez votre adresse mail">
                 <label for="pwd">Mot de passe </label>
                 <input type="password" name="pwd" placeholder="Saisissez votre mot de passe">
-                <input type="submit" value="Se connecter">
+                <input type="submit" value="Se tester">
 
         </form>
         <small><?php echo $message ?></small>
