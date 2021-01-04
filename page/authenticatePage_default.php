@@ -12,4 +12,4 @@
         </form>
         <small><?php echo $message ?></small>
 
-<?php include('template/footer.php'); ?>
+<?php include('template/footer.php'); ?>azeae
