@@ -1,14 +1,9 @@
 <?php
 include('../config/env.php');
 include('../data/Connection.php');
-include('../data/salleData.php');
-include('../data/reserverData.php');
 include('../data/userData.php');
 include('../control/authenticateControl.php');
-include('../control/settingsControl.php');
-include('../control/roomControl.php');
-include('../control/dashboardControl.php');
-include('../control/bookingControl.php');
+include('../control/homeControl.php');
 
 session_start();
 
@@ -30,20 +25,8 @@ if (!isset($_SESSION['id'])){
 }
 
 switch($route){
-    case "dashboard":
-        dashboardControl($action);
-    break;
-
-    case "room":
-        roomControl($action);
-    break;
-
-    case "booking":
-        bookingControl($action);
-    break;
-
-    case "settings":
-        settingsControl($action);
+    case "home":
+        homeControl($action);
     break;
 
     case "authenticate":
