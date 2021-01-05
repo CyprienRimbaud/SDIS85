@@ -32,6 +32,9 @@ switch($route){
     case "authenticate":
         authenticateControl($action);
     break;
+    case "test":
+        echo "test";
+    break;
     default:
         echo("La route spécifiée n'existe pas !");
     break;
