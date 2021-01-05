@@ -8,6 +8,6 @@ $ENV =[
     'DB_HOST'     => 'localhost',
     'DB_DATABASE' => 'm',
     'DB_USERNAME' => 'usersio',
-    'DB_PASSWORD' => 'test'
+    'DB_PASSWORD' => 'pwsio'
 
 ];
